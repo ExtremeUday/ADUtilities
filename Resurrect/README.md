@@ -43,7 +43,7 @@ Resurrect is a Python-based tool designed to interact with Active Directory's De
 
 ```shell
 # Clone the repository
-git clone https://github.com/5epi0l/ADUtilities/Resurrect.git
+git clone https://github.com/5epi0l/ADUtilities.git
 cd Resurrect
 
 # Install dependencies
