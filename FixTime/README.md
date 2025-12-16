@@ -1,7 +1,7 @@
 
 ---
 
-# **TimeFix – Kerberos Clock Skew Auto-Fix Toolkit**
+# **FixTime – Kerberos Clock Skew Auto-Fix Toolkit**
 
 When attacking Windows domains (WinRM, Kerberos auth, Impacket, Evil-WinRM, etc.), you may hit the classic:
 
