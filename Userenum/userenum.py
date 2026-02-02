@@ -1,3 +1,4 @@
+cat userenum.py
 #!/usr/bin/env python3
 
 # Author : PaiN05 , Uday
@@ -30,6 +31,10 @@ def parse_name(line):
         parts = line.split(".")
     else:
         parts = line.split()
+
+    # NEW: allow single names
+    if len(parts) == 1:
+        return parts[0], parts[0]
 
     if len(parts) == 2:
         return parts[0], parts[1]
